@@ -6,13 +6,16 @@ body{
 }
 
 .header_rite{
+    width: 878px;
+    background-color: E5E5E5;
     background: #FFFFFF;
     padding: 60px 162px 80px;
 }
 
 .header_conteiner--logo{
-    width: 258px;
+    width: 280px;
     position: relative;
+    padding: 10px;
     margin-bottom: 356px;
 }
 .heder_h1-container{
@@ -65,10 +68,6 @@ body{
 
 }
 
-.header_rite{
-    width: 878px;
-    background-color: E5E5E5;
-}
 .header_left{
     display: flex;
     flex-direction: column;
@@ -141,3 +140,37 @@ body{
 
 
 
+// @media screen and (min-width: 768px) and (max-width: 1199.98px)
+// @media screen and (min-width: 375px) {
+//     .container {
+//         width: 375px;
+//     }
+// }
+
+// @media screen and (min-width: 768px) {
+//     .container {
+//         width: 768px;
+//     }
+// }
+
+// @media screen and (min-width: 1200px){
+//     .container {
+//             width: 1200px;
+//         }
+
+//     .header_rite {
+//         min-width: 878px;
+//         background-color: E5E5E5;
+//         background: #FFFFFF;
+//         padding: 60px 162px 80px;
+//     }
+
+//     .header_left {
+//         display: flex;
+//         flex-direction: column;
+//         min-width: 562px;
+//         background-color: #272727;
+//         padding-top: 75px;
+//         padding-bottom: 65px;
+//     }
+// }
